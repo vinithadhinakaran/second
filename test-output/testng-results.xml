@@ -1,59 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="1" ignored="7" total="25" passed="17">
   <reporter-output>
     <line>
       <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
     </line>
+    <line>
+      <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
+    </line>
+    <line>
+      <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
+    </line>
+    <line>
+      <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="174550" started-at="2021-05-11T11:07:02Z" finished-at="2021-05-11T11:09:56Z">
+  <suite name="Default suite" duration-ms="189330" started-at="2021-05-14T13:08:06Z" finished-at="2021-05-14T13:11:15Z">
     <groups>
       <group name="Smoke Suite">
-        <method signature="Smoke.corporatepage()[pri:8, instance:TestCases.Smoke@43a0cee9]" name="corporatepage" class="TestCases.Smoke"/>
-        <method signature="Smoke.diagnostic()[pri:6, instance:TestCases.Smoke@43a0cee9]" name="diagnostic" class="TestCases.Smoke"/>
-        <method signature="Smoke.diagnosticdata()[pri:7, instance:TestCases.Smoke@43a0cee9]" name="diagnosticdata" class="TestCases.Smoke"/>
-        <method signature="Smoke.diagnostics()[pri:5, instance:TestCases.Smoke@43a0cee9]" name="diagnostics" class="TestCases.Smoke"/>
-        <method signature="Smoke.hospital()[pri:1, instance:TestCases.Smoke@43a0cee9]" name="hospital" class="TestCases.Smoke"/>
-        <method signature="Smoke.hospitaldata()[pri:4, instance:TestCases.Smoke@43a0cee9]" name="hospitaldata" class="TestCases.Smoke"/>
-        <method signature="Smoke.hospitalnames()[pri:3, instance:TestCases.Smoke@43a0cee9]" name="hospitalnames" class="TestCases.Smoke"/>
-        <method signature="Smoke.login()[pri:0, instance:TestCases.Smoke@43a0cee9]" name="login" class="TestCases.Smoke"/>
-        <method signature="Smoke.searchhospitals()[pri:2, instance:TestCases.Smoke@43a0cee9]" name="searchhospitals" class="TestCases.Smoke"/>
+        <method signature="Smoke.corporatepage()[pri:8, instance:TestCases.Smoke@710726a3]" name="corporatepage" class="TestCases.Smoke"/>
+        <method signature="Smoke.diagnostic()[pri:6, instance:TestCases.Smoke@710726a3]" name="diagnostic" class="TestCases.Smoke"/>
+        <method signature="Smoke.diagnosticdata()[pri:7, instance:TestCases.Smoke@710726a3]" name="diagnosticdata" class="TestCases.Smoke"/>
+        <method signature="Smoke.diagnostics()[pri:5, instance:TestCases.Smoke@710726a3]" name="diagnostics" class="TestCases.Smoke"/>
+        <method signature="Smoke.hospital()[pri:1, instance:TestCases.Smoke@710726a3]" name="hospital" class="TestCases.Smoke"/>
+        <method signature="Smoke.hospitaldata()[pri:4, instance:TestCases.Smoke@710726a3]" name="hospitaldata" class="TestCases.Smoke"/>
+        <method signature="Smoke.hospitalnames()[pri:3, instance:TestCases.Smoke@710726a3]" name="hospitalnames" class="TestCases.Smoke"/>
+        <method signature="Smoke.login()[pri:0, instance:TestCases.Smoke@710726a3]" name="login" class="TestCases.Smoke"/>
+        <method signature="Smoke.searchhospitals()[pri:2, instance:TestCases.Smoke@710726a3]" name="searchhospitals" class="TestCases.Smoke"/>
       </group> <!-- Smoke Suite -->
+      <group name="Regression Suite">
+        <method signature="Regression.corporatepage()[pri:8, instance:TestCases.Regression@149494d8]" name="corporatepage" class="TestCases.Regression"/>
+        <method signature="Regression.diagnostic()[pri:6, instance:TestCases.Regression@149494d8]" name="diagnostic" class="TestCases.Regression"/>
+        <method signature="Regression.diagnosticdata()[pri:7, instance:TestCases.Regression@149494d8]" name="diagnosticdata" class="TestCases.Regression"/>
+        <method signature="Regression.diagnostics()[pri:5, instance:TestCases.Regression@149494d8]" name="diagnostics" class="TestCases.Regression"/>
+        <method signature="Regression.hospital()[pri:1, instance:TestCases.Regression@149494d8]" name="hospital" class="TestCases.Regression"/>
+        <method signature="Regression.hospitaldata()[pri:4, instance:TestCases.Regression@149494d8]" name="hospitaldata" class="TestCases.Regression"/>
+        <method signature="Regression.hospitalnames()[pri:3, instance:TestCases.Regression@149494d8]" name="hospitalnames" class="TestCases.Regression"/>
+        <method signature="Regression.login()[pri:0, instance:TestCases.Regression@149494d8]" name="login" class="TestCases.Regression"/>
+        <method signature="Regression.searchhospitals()[pri:2, instance:TestCases.Regression@149494d8]" name="searchhospitals" class="TestCases.Regression"/>
+      </group> <!-- Regression Suite -->
     </groups>
-    <test name="Test" duration-ms="174550" started-at="2021-05-11T11:07:02Z" finished-at="2021-05-11T11:09:56Z">
-      <class name="TestCases.Smoke">
-        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.Smoke@43a0cee9]" name="login" duration-ms="50276" started-at="2021-05-11T11:07:02Z" finished-at="2021-05-11T11:07:52Z">
+    <test name="Default test" duration-ms="189330" started-at="2021-05-14T13:08:06Z" finished-at="2021-05-14T13:11:15Z">
+      <class name="com.FindingHospitals.CoporateWellness">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.FindingHospitals.CoporateWellness@78186a70]" name="closeBrowser" is-config="true" duration-ms="1831" started-at="2021-05-14T13:11:13Z" finished-at="2021-05-14T13:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.FindingHospitals.CoporateWellness -->
+      <class name="TestCases.Regression">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.Regression@149494d8]" name="login" duration-ms="36857" started-at="2021-05-14T13:08:06Z" finished-at="2021-05-14T13:08:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="hospital()[pri:1, instance:TestCases.Smoke@43a0cee9]" name="hospital" duration-ms="2437" started-at="2021-05-11T11:07:52Z" finished-at="2021-05-11T11:07:55Z">
+        <test-method status="PASS" signature="hospital()[pri:1, instance:TestCases.Regression@149494d8]" name="hospital" duration-ms="4456" started-at="2021-05-14T13:09:09Z" finished-at="2021-05-14T13:09:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hospital -->
-        <test-method status="PASS" signature="searchhospitals()[pri:2, instance:TestCases.Smoke@43a0cee9]" name="searchhospitals" duration-ms="26165" started-at="2021-05-11T11:07:55Z" finished-at="2021-05-11T11:08:21Z">
+        <test-method status="PASS" signature="searchhospitals()[pri:2, instance:TestCases.Regression@149494d8]" name="searchhospitals" duration-ms="36959" started-at="2021-05-14T13:09:26Z" finished-at="2021-05-14T13:10:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchhospitals -->
-        <test-method status="PASS" signature="hospitalnames()[pri:3, instance:TestCases.Smoke@43a0cee9]" name="hospitalnames" duration-ms="407" started-at="2021-05-11T11:08:21Z" finished-at="2021-05-11T11:08:21Z">
+        <test-method status="PASS" signature="hospitalnames()[pri:3, instance:TestCases.Regression@149494d8]" name="hospitalnames" duration-ms="1436" started-at="2021-05-14T13:10:14Z" finished-at="2021-05-14T13:10:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hospitalnames -->
-        <test-method status="PASS" signature="hospitaldata()[pri:4, instance:TestCases.Smoke@43a0cee9]" name="hospitaldata" duration-ms="37263" started-at="2021-05-11T11:08:21Z" finished-at="2021-05-11T11:08:59Z">
+        <test-method status="PASS" signature="hospitaldata()[pri:4, instance:TestCases.Regression@149494d8]" name="hospitaldata" duration-ms="8339" started-at="2021-05-14T13:10:16Z" finished-at="2021-05-14T13:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hospitaldata -->
-        <test-method status="PASS" signature="diagnostics()[pri:5, instance:TestCases.Smoke@43a0cee9]" name="diagnostics" duration-ms="14571" started-at="2021-05-11T11:08:59Z" finished-at="2021-05-11T11:09:13Z">
+        <test-method status="PASS" signature="diagnostics()[pri:5, instance:TestCases.Regression@149494d8]" name="diagnostics" duration-ms="10282" started-at="2021-05-14T13:10:26Z" finished-at="2021-05-14T13:10:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diagnostics -->
-        <test-method status="PASS" signature="diagnostic()[pri:6, instance:TestCases.Smoke@43a0cee9]" name="diagnostic" duration-ms="1255" started-at="2021-05-11T11:09:13Z" finished-at="2021-05-11T11:09:14Z">
+        <test-method status="PASS" signature="diagnostic()[pri:6, instance:TestCases.Regression@149494d8]" name="diagnostic" duration-ms="262" started-at="2021-05-14T13:10:38Z" finished-at="2021-05-14T13:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diagnostic -->
-        <test-method status="PASS" signature="diagnosticdata()[pri:7, instance:TestCases.Smoke@43a0cee9]" name="diagnosticdata" duration-ms="404" started-at="2021-05-11T11:09:14Z" finished-at="2021-05-11T11:09:15Z">
+        <test-method status="PASS" signature="diagnosticdata()[pri:7, instance:TestCases.Regression@149494d8]" name="diagnosticdata" duration-ms="332" started-at="2021-05-14T13:10:39Z" finished-at="2021-05-14T13:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diagnosticdata -->
-        <test-method status="PASS" signature="corporatepage()[pri:8, instance:TestCases.Smoke@43a0cee9]" name="corporatepage" duration-ms="41565" started-at="2021-05-11T11:09:15Z" finished-at="2021-05-11T11:09:56Z">
+        <test-method status="PASS" signature="corporatepage()[pri:8, instance:TestCases.Regression@149494d8]" name="corporatepage" duration-ms="20745" started-at="2021-05-14T13:10:39Z" finished-at="2021-05-14T13:11:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- corporatepage -->
+      </class> <!-- TestCases.Regression -->
+      <class name="TestCases.Smoke">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.Smoke@710726a3]" name="login" duration-ms="26473" started-at="2021-05-14T13:08:43Z" finished-at="2021-05-14T13:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="hospital()[pri:1, instance:TestCases.Smoke@710726a3]" name="hospital" duration-ms="11813" started-at="2021-05-14T13:09:14Z" finished-at="2021-05-14T13:09:26Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Bangalore']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO', ip: '192.168.43.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bb423c899213ea9df4b143cf2e0c1c0
+*** Element info: {Using=xpath, value=//div[normalize-space()='Bangalore']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Bangalore']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO', ip: '192.168.43.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\ELCOT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8bb423c899213ea9df4b143cf2e0c1c0
+*** Element info: {Using=xpath, value=//div[normalize-space()='Bangalore']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy8.click(Unknown Source)
+at com.FindingHospitals.BaseHome.clickBangalore(BaseHome.java:93)
+at TestCases.Smoke.hospital(Smoke.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospital -->
+        <test-method status="PASS" signature="searchhospitals()[pri:2, instance:TestCases.Smoke@710726a3]" name="searchhospitals" duration-ms="11630" started-at="2021-05-14T13:10:03Z" finished-at="2021-05-14T13:10:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchhospitals -->
+        <test-method status="PASS" signature="hospitalnames()[pri:3, instance:TestCases.Smoke@710726a3]" name="hospitalnames" duration-ms="796" started-at="2021-05-14T13:10:16Z" finished-at="2021-05-14T13:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalnames -->
+        <test-method status="PASS" signature="hospitaldata()[pri:4, instance:TestCases.Smoke@710726a3]" name="hospitaldata" duration-ms="914" started-at="2021-05-14T13:10:25Z" finished-at="2021-05-14T13:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitaldata -->
+        <test-method status="PASS" signature="diagnostics()[pri:5, instance:TestCases.Smoke@710726a3]" name="diagnostics" duration-ms="2177" started-at="2021-05-14T13:10:36Z" finished-at="2021-05-14T13:10:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- diagnostics -->
+        <test-method status="PASS" signature="diagnostic()[pri:6, instance:TestCases.Smoke@710726a3]" name="diagnostic" duration-ms="136" started-at="2021-05-14T13:10:38Z" finished-at="2021-05-14T13:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diagnostic -->
+        <test-method status="PASS" signature="diagnosticdata()[pri:7, instance:TestCases.Smoke@710726a3]" name="diagnosticdata" duration-ms="343" started-at="2021-05-14T13:10:39Z" finished-at="2021-05-14T13:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diagnosticdata -->
+        <test-method status="PASS" signature="corporatepage()[pri:8, instance:TestCases.Smoke@710726a3]" name="corporatepage" duration-ms="13218" started-at="2021-05-14T13:11:00Z" finished-at="2021-05-14T13:11:13Z">
           <reporter-output>
             <line>
               <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
@@ -61,6 +203,6 @@
           </reporter-output>
         </test-method> <!-- corporatepage -->
       </class> <!-- TestCases.Smoke -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

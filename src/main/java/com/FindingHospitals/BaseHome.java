@@ -232,7 +232,7 @@ public class BaseHome {
 
 			Set<String> fill = driver.getWindowHandles();
 			Iterator<String> it = fill.iterator();
-			String mainpage = it.next();
+		//	String mainpage = it.next();
 			String form = it.next();
 			driver.switchTo().window(form);
 

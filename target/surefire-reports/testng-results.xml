@@ -5,7 +5,7 @@
       <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="122082" started-at="2021-05-11T11:11:39Z" finished-at="2021-05-11T11:13:41Z">
+  <suite name="Suite" duration-ms="101208" started-at="2021-05-14T13:11:50Z" finished-at="2021-05-14T13:13:31Z">
     <groups>
       <group name="Smoke Suite">
         <method signature="Smoke.corporatepage()[pri:8, instance:TestCases.Smoke@2353b3e6]" name="corporatepage" class="TestCases.Smoke"/>
@@ -19,41 +19,41 @@
         <method signature="Smoke.searchhospitals()[pri:2, instance:TestCases.Smoke@2353b3e6]" name="searchhospitals" class="TestCases.Smoke"/>
       </group> <!-- Smoke Suite -->
     </groups>
-    <test name="Test" duration-ms="122082" started-at="2021-05-11T11:11:39Z" finished-at="2021-05-11T11:13:41Z">
+    <test name="Test" duration-ms="101208" started-at="2021-05-14T13:11:50Z" finished-at="2021-05-14T13:13:31Z">
       <class name="TestCases.Smoke">
-        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.Smoke@2353b3e6]" name="login" duration-ms="39294" started-at="2021-05-11T11:11:39Z" finished-at="2021-05-11T11:12:18Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.Smoke@2353b3e6]" name="login" duration-ms="24542" started-at="2021-05-14T13:11:50Z" finished-at="2021-05-14T13:12:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="hospital()[pri:1, instance:TestCases.Smoke@2353b3e6]" name="hospital" duration-ms="2383" started-at="2021-05-11T11:12:18Z" finished-at="2021-05-11T11:12:20Z">
+        <test-method status="PASS" signature="hospital()[pri:1, instance:TestCases.Smoke@2353b3e6]" name="hospital" duration-ms="2742" started-at="2021-05-14T13:12:15Z" finished-at="2021-05-14T13:12:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hospital -->
-        <test-method status="PASS" signature="searchhospitals()[pri:2, instance:TestCases.Smoke@2353b3e6]" name="searchhospitals" duration-ms="28766" started-at="2021-05-11T11:12:20Z" finished-at="2021-05-11T11:12:49Z">
+        <test-method status="PASS" signature="searchhospitals()[pri:2, instance:TestCases.Smoke@2353b3e6]" name="searchhospitals" duration-ms="26638" started-at="2021-05-14T13:12:17Z" finished-at="2021-05-14T13:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchhospitals -->
-        <test-method status="PASS" signature="hospitalnames()[pri:3, instance:TestCases.Smoke@2353b3e6]" name="hospitalnames" duration-ms="340" started-at="2021-05-11T11:12:49Z" finished-at="2021-05-11T11:12:50Z">
+        <test-method status="PASS" signature="hospitalnames()[pri:3, instance:TestCases.Smoke@2353b3e6]" name="hospitalnames" duration-ms="1045" started-at="2021-05-14T13:12:44Z" finished-at="2021-05-14T13:12:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hospitalnames -->
-        <test-method status="PASS" signature="hospitaldata()[pri:4, instance:TestCases.Smoke@2353b3e6]" name="hospitaldata" duration-ms="13987" started-at="2021-05-11T11:12:50Z" finished-at="2021-05-11T11:13:04Z">
+        <test-method status="PASS" signature="hospitaldata()[pri:4, instance:TestCases.Smoke@2353b3e6]" name="hospitaldata" duration-ms="8680" started-at="2021-05-14T13:12:45Z" finished-at="2021-05-14T13:12:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hospitaldata -->
-        <test-method status="PASS" signature="diagnostics()[pri:5, instance:TestCases.Smoke@2353b3e6]" name="diagnostics" duration-ms="7304" started-at="2021-05-11T11:13:04Z" finished-at="2021-05-11T11:13:11Z">
+        <test-method status="PASS" signature="diagnostics()[pri:5, instance:TestCases.Smoke@2353b3e6]" name="diagnostics" duration-ms="8701" started-at="2021-05-14T13:12:54Z" finished-at="2021-05-14T13:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diagnostics -->
-        <test-method status="PASS" signature="diagnostic()[pri:6, instance:TestCases.Smoke@2353b3e6]" name="diagnostic" duration-ms="843" started-at="2021-05-11T11:13:11Z" finished-at="2021-05-11T11:13:12Z">
+        <test-method status="PASS" signature="diagnostic()[pri:6, instance:TestCases.Smoke@2353b3e6]" name="diagnostic" duration-ms="3480" started-at="2021-05-14T13:13:02Z" finished-at="2021-05-14T13:13:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diagnostic -->
-        <test-method status="PASS" signature="diagnosticdata()[pri:7, instance:TestCases.Smoke@2353b3e6]" name="diagnosticdata" duration-ms="308" started-at="2021-05-11T11:13:12Z" finished-at="2021-05-11T11:13:12Z">
+        <test-method status="PASS" signature="diagnosticdata()[pri:7, instance:TestCases.Smoke@2353b3e6]" name="diagnosticdata" duration-ms="329" started-at="2021-05-14T13:13:06Z" finished-at="2021-05-14T13:13:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diagnosticdata -->
-        <test-method status="PASS" signature="corporatepage()[pri:8, instance:TestCases.Smoke@2353b3e6]" name="corporatepage" duration-ms="28766" started-at="2021-05-11T11:13:12Z" finished-at="2021-05-11T11:13:41Z">
+        <test-method status="PASS" signature="corporatepage()[pri:8, instance:TestCases.Smoke@2353b3e6]" name="corporatepage" duration-ms="24981" started-at="2021-05-14T13:13:06Z" finished-at="2021-05-14T13:13:31Z">
           <reporter-output>
             <line>
               <![CDATA[UNKNOWN EXCEPTION OCCURED]]>
